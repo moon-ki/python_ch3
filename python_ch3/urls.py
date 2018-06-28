@@ -26,5 +26,6 @@ urlpatterns = [
     path('emaillist/form',emaillist_views.form),
     path('emaillist/add',emaillist_views.add),
 
-    path('guestbook/',guestbook_views.index)
+    path('guestbook/',guestbook_views.index),
+    path('guestbook/add',guestbook_views.add)
 ]
